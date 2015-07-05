@@ -1,0 +1,6 @@
+com\nitish\witer\SimpleWriter.class
+com\nitish\domain\UserInfoDomain.class
+SimpleJob.class
+com\nitish\processor\BlackListProcessor.class
+com\nitish\reader\SimpleReader.class
+com\nitish\bean\BlackListUser.class
