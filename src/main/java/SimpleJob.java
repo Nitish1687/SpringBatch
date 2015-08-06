@@ -21,6 +21,7 @@ public class SimpleJob {
             // run
             jobLauncher.run(job, new JobParameters());
 
+            
         }catch (Exception e){
             System.out.println(e.getCause()+"---------------"+e.getMessage());
         }
