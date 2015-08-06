@@ -10,7 +10,7 @@ public class SimpleJob {
 
     public static void main(String[] args)  {
         ClassPathXmlApplicationContext appContext = null;
-        
+
         try {
 
             appContext = new ClassPathXmlApplicationContext("applicationBatchContext.xml");
