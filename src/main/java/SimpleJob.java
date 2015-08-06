@@ -10,6 +10,7 @@ public class SimpleJob {
 
     public static void main(String[] args)  {
         ClassPathXmlApplicationContext appContext = null;
+
         try {
 
             appContext = new ClassPathXmlApplicationContext("applicationBatchContext.xml");
@@ -21,6 +22,7 @@ public class SimpleJob {
             // run
             jobLauncher.run(job, new JobParameters());
 
+            
         }catch (Exception e){
             System.out.println(e.getCause()+"---------------"+e.getMessage());
         }
