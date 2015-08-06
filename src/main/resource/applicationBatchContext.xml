@@ -50,7 +50,7 @@
         <step id="simpleStep">
             <tasklet  task-executor="taskExecutor">
                 <chunk reader="simpleReader" processor="blackListProcessor" writer="simpleWriter"
-                       commit-interval="2">
+                       commit-interval="1">
                 </chunk>
             </tasklet>
 
