@@ -8,6 +8,7 @@ public class BlackListUser {
     private String emailId;
     private String Name;
 
+    
 
     public String getName() {
         return Name;
